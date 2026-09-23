@@ -140,7 +140,7 @@ bool hapusHalaman(DNode*& head, DNode*& tail, int nomor) {
     delete p;
     return true;
 }
-// SOAL 4
+// SOAL 4ff
 bool bukaTab(CNode*& head, int nomor) {
     CNode* baru = new CNode;
 
@@ -158,7 +158,6 @@ bool bukaTab(CNode*& head, int nomor) {
         p = p->next;
     }
 
-    // Tambahkan node baru
     baru->next = head;
     p->next = baru;
 
